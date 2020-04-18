@@ -58,12 +58,12 @@
 
 1. JDK安装
 
-<img src="C:\Users\23888\AppData\Roaming\Typora\typora-user-images\image-20200416205319381.png" alt="image-20200416205319381" style="zoom:50%;" />
+<img src="..\img\image-20200416205319381.png" alt="image-20200416205319381" style="zoom:50%;" />
 
 2.SDK
 
-<img src="C:\Users\23888\AppData\Roaming\Typora\typora-user-images\image-20200416205522092.png" alt="image-20200416205522092" style="zoom: 33%;" />
+<img src="..\img\image-20200416205522092.png" alt="image-20200416205522092" style="zoom: 33%;" />
 
 3.AVD
 
-<img src="C:\Users\23888\AppData\Roaming\Typora\typora-user-images\image-20200416205612566.png" alt="image-20200416205612566" style="zoom:33%;" />
+<img src="..\img\image-20200416205612566.png" alt="image-20200416205612566" style="zoom:33%;" />
