@@ -12,8 +12,8 @@
 
 - 应用程序层
 - 应用程序程序框架层
--  系统库和Android运行时
--  Linux内核
+- 系统库和Android运行时
+- Linux内核
 
 
 
@@ -186,11 +186,11 @@ abd命令：
 
 ![img](https://note.youdao.com/yws/public/resource/0e89c777a3d9902be4a0aa48ac731ddf/xmlnote/D40A71EB05AE46BFAAD5E733321BF4AE/342)
 
-**UI编程基础**
+### **UI编程基础**
 
 ![img](https://note.youdao.com/yws/public/resource/0e89c777a3d9902be4a0aa48ac731ddf/xmlnote/FFBABF4EE8A74787BAB2081640BE7E25/346)
 
-**1、常用控件**
+#### **1、常用控件**
 
 ​      文本控件：– TextView – EditText 
 
@@ -216,21 +216,21 @@ abd命令：
 
 ​      日期与时间选择控件： – DatePicker – TimePicker
 
-**2、常用布局**
+#### **2、常用布局**
 
 ![img](https://note.youdao.com/yws/public/resource/0e89c777a3d9902be4a0aa48ac731ddf/xmlnote/21E73E89D61C4690BD00B43785F7EA99/370)
 
 ![img](https://note.youdao.com/yws/public/resource/0e89c777a3d9902be4a0aa48ac731ddf/xmlnote/FE985241EB0348668552612AF6FD9B1E/383)
 
-**3、事件处理**
+#### **3、事件处理**
 
 ​     基于监听器的事件处理
 
 ![img](https://note.youdao.com/yws/public/resource/0e89c777a3d9902be4a0aa48ac731ddf/xmlnote/EEF5C6F670FC43F683DF9F94B4D89DCD/390)
 
-**UI编程拓展**
+### **UI编程拓展**
 
-**1、对话框开发**
+#### **1、对话框开发**
 
 ​      简单对话框
 
@@ -246,7 +246,7 @@ abd命令：
 
 ![img](https://note.youdao.com/yws/public/resource/0e89c777a3d9902be4a0aa48ac731ddf/xmlnote/93D17C5F00C74C41B17FB55A6C6FE446/417)
 
-**2、菜单开发**
+#### **2、菜单开发**
 
 OptionMenu界面开发
 
@@ -286,7 +286,7 @@ OpeanMenu事件处理
 
 ![img](https://note.youdao.com/yws/public/resource/0e89c777a3d9902be4a0aa48ac731ddf/xmlnote/EF1CB0087C88429C80F5DFA2714A10A6/462)
 
-**3、导航界面开发**
+#### **3、导航界面开发**
 
 编码实现
 
@@ -304,9 +304,9 @@ OpeanMenu事件处理
 
 ![img](https://note.youdao.com/yws/public/resource/0e89c777a3d9902be4a0aa48ac731ddf/xmlnote/2A04BE35E8D94269A09C36C77C37DB77/482)
 
-**UI动态编程**
+### **UI动态编程**
 
-**1、ListView和Adapter**
+#### **1、ListView和Adapter**
 
 ​      ListView界面开发
 
@@ -374,7 +374,7 @@ OpeanMenu事件处理
 
 ![img](https://note.youdao.com/yws/public/resource/0e89c777a3d9902be4a0aa48ac731ddf/xmlnote/579D160DE7194C42989BEA5444A5D66E/571)
 
-事件处理
+2、事件处理
 
 - Click事件处理
 
@@ -392,7 +392,7 @@ OpeanMenu事件处理
 
 ![img](https://note.youdao.com/yws/public/resource/0e89c777a3d9902be4a0aa48ac731ddf/xmlnote/D53F7196209247E5A48C0BCAC55F5254/592)
 
-**2、RecyclerView**
+#### **2、RecyclerView**
 
 界面开发
 
@@ -408,7 +408,7 @@ OpeanMenu事件处理
 
 ![img](https://note.youdao.com/yws/public/resource/0e89c777a3d9902be4a0aa48ac731ddf/xmlnote/7B2184D9B3AB4356809783201D7F05C3/610)
 
-**3、AdapterView类**
+#### **3、AdapterView类**
 
 ![img](https://note.youdao.com/yws/public/resource/0e89c777a3d9902be4a0aa48ac731ddf/xmlnote/E449996F0564453387045932EF6AAE4C/616)
 
@@ -416,16 +416,162 @@ OpeanMenu事件处理
 
 1、列举常用的几个控件和布局。
 
+​	<u>五大布局：</u>
+
+   	<u>（1）LinaerLayout</u>
+
+   	<u>（2）RelativeLayout</u>  
+
+   	<u>（3）FrameLayout</u> 
+
+   	<u>（4）AbsoluteLayout</u> 
+
+   	<u>（5）TableLayout</u> 
+
+
+
 2、所有控件和布局都继承自哪个类？
+
+​	<u>View类</u>
+
+
 
 3、属性layout_width和layout_height取值有哪几种？
 
+<u>android:layout_height：指定该子组件的布局高度；</u> 
+
+<u>android:layout_width：指定该子组件的布局宽度；</u> 
+
+<u>他们分别支持3种属性值，match_parent,fill_parent,wrap_content。match_parent：指定子组件的高度、宽度与父容器组件的高度、宽度相同。</u> 
+
+<u>fill_parent：作用与match_parent相同，已被match_parent取代。</u> 
+
+<u>wrap_content：指定子组件的大小刚好能包裹它的内容。</u>
+
+
+
 4、布局文件放在哪个文件夹？图片放在哪个文件夹？
+
+<u>layout                    drawable</u>
+
+
 
 5、尺寸的单位是什么？文字尺寸用哪个单位？为什么？
 
+<u>px：表示屏幕实际的象素。例如，320*480的屏幕在横向有320个象素，在纵向有480个象素。</u>
+
+<u>pt：表示一个点，是屏幕的物理尺寸。大小为1英寸的1/72。</u>
+
+<u>in：表示英寸，是屏幕的物理尺寸。每英寸等于2.54厘米。例如，形容手机屏幕大小，经常说，3.2（英）寸、3.5（英）寸、4（英）寸就是指这个单位。这些尺寸是屏幕的对角线长度。如果手机的屏幕是3.2英寸，表示手机的屏幕（可视区域）对角线长度是3.2*2.54 = 8.128厘米。读者可以去量一量自己的手机屏幕，看和实际的尺寸是否一致。</u>
+
+<u>mm：表示毫米，是屏幕的物理尺寸。</u>
+
+
+
 6、事件处理方式有哪几种？
 
-7、用ListView和Adapter界面开发的步骤
+<u>android的事件处理机制有两种：一种是基于回调的，一种基于事件监听的。</u>
 
-8、在ListView中，如何实现修改数据后的界面显示刷新？
+
+
+## **第五章 Activity活动**
+
+### **1.Activity是什么**
+
+<u>–肉眼可见的，与用户交互的界面，包括手机桌面</u>
+
+<u>–每个界面都与一个Activity一一对应</u>
+
+<u>–作用：展示界面，并与用户交互</u>
+
+<u>–展示型组件，对用户来说，Activity几乎是一个应用的全部</u>
+
+
+
+### **2.Activity的创建和注册**
+
+![img](https://note.youdao.com/yws/public/resource/0e89c777a3d9902be4a0aa48ac731ddf/xmlnote/2883B2548D924F47A159B56417DA5E42/683)
+
+![img](https://note.youdao.com/yws/public/resource/0e89c777a3d9902be4a0aa48ac731ddf/xmlnote/07F108AA61974B8EAA053D434F47FEA3/685)
+
+### 3.**Activity的启动**
+
+​	**1、第一个Activity的启动**
+
+![img](https://note.youdao.com/yws/public/resource/0e89c777a3d9902be4a0aa48ac731ddf/xmlnote/CFE34A8750EB4C168770ABF9BBE8FFBC/693)
+
+**2、其他Activity的的启动**
+
+​       **startactivity()启动**
+
+<img src="https://note.youdao.com/yws/public/resource/0e89c777a3d9902be4a0aa48ac731ddf/xmlnote/789A9F88F3EE4DFFAA6445B5BF11ABE3/699" alt="img" style="zoom:50%;" />
+
+<img src="https://note.youdao.com/yws/public/resource/0e89c777a3d9902be4a0aa48ac731ddf/xmlnote/2EFA1EC41C2C490B95BE151D24C59834/702" alt="img" style="zoom:50%;" />
+
+<img src="https://note.youdao.com/yws/public/resource/0e89c777a3d9902be4a0aa48ac731ddf/xmlnote/89860D8A686B4349B19DA818C8CD38BA/704" alt="img" style="zoom:50%;" />
+
+<img src="https://note.youdao.com/yws/public/resource/0e89c777a3d9902be4a0aa48ac731ddf/xmlnote/E6471C7D680042609A9323EBEC248FD6/706" alt="img" style="zoom:50%;" />
+
+<img src="https://note.youdao.com/yws/public/resource/0e89c777a3d9902be4a0aa48ac731ddf/xmlnote/BF9E836D20C74EF7826D8DA5345DD2F2/709" alt="img" style="zoom:50%;" />**3、3、startActivityForActivity()启动**
+
+<img src="https://note.youdao.com/yws/public/resource/0e89c777a3d9902be4a0aa48ac731ddf/xmlnote/CED2CC734A70415287D6595670D56646/719" alt="img" style="zoom:50%;" />
+
+<img src="https://note.youdao.com/yws/public/resource/0e89c777a3d9902be4a0aa48ac731ddf/xmlnote/55FDB019F2204B05BBDC1FE19EDF3DB8/721" alt="img" style="zoom:50%;" />
+
+​             ![img](https://note.youdao.com/yws/public/resource/0e89c777a3d9902be4a0aa48ac731ddf/xmlnote/55FDB019F2204B05BBDC1FE19EDF3DB8/721)
+
+![img](https://note.youdao.com/yws/public/resource/0e89c777a3d9902be4a0aa48ac731ddf/xmlnote/B82C769BF58E4ED88F8CDCE5608E9575/723)
+
+![img](https://note.youdao.com/yws/public/resource/0e89c777a3d9902be4a0aa48ac731ddf/xmlnote/BE5826CA99EA4507B86B9EB4CB6F8183/727)
+
+![img](https://note.youdao.com/yws/public/resource/0e89c777a3d9902be4a0aa48ac731ddf/xmlnote/F469C4D8BD964666BDBD679EB0BE360F/730)
+
+两种启动方式的比较
+
+![img](https://note.youdao.com/yws/public/resource/0e89c777a3d9902be4a0aa48ac731ddf/xmlnote/2B62232A516C4E228D3F98E185B4328B/734)
+
+### **4.Activity的停止**
+
+**1、Activity的生命周期状态**
+
+–运行状态：Activity存在，位于前台，可见，可以响应用户事件。
+
+–暂停状态：Activity存在，位于前台，可见，但被遮挡，不能响应用户事件。
+
+–停止状态：Activity存在，前台不可见，不能响应用户事件。
+
+–销毁状态：Activity不存在。
+
+<img src="https://note.youdao.com/yws/public/resource/0e89c777a3d9902be4a0aa48ac731ddf/xmlnote/4B879D9F69624AA4A306E3D0C4D2CADF/750" alt="img" style="zoom:50%;" />
+
+**2、Activity的生命周期的回调方法**
+
+<img src="https://note.youdao.com/yws/public/resource/0e89c777a3d9902be4a0aa48ac731ddf/xmlnote/0E3D213CD9FD4BCD9063F8DAFA364A4B/754" alt="img" style="zoom:50%;" />
+
+<img src="https://note.youdao.com/yws/public/resource/0e89c777a3d9902be4a0aa48ac731ddf/xmlnote/993FD8DC368C49FC8FBF6708953E27A8/756" alt="img" style="zoom:50%;" />
+
+<img src="https://note.youdao.com/yws/public/resource/0e89c777a3d9902be4a0aa48ac731ddf/xmlnote/0857AA02900749B3ABB22C223C295578/758" alt="img" style="zoom:50%;" />
+
+<img src="https://note.youdao.com/yws/public/resource/0e89c777a3d9902be4a0aa48ac731ddf/xmlnote/DFE39D7155D04039BACB4350DB7EB57A/760" alt="img" style="zoom:50%;" />
+
+<img src="https://note.youdao.com/yws/public/resource/0e89c777a3d9902be4a0aa48ac731ddf/xmlnote/5E82AF048B8D477090B5D1E5CC76F35B/762" alt="img" style="zoom:50%;" />
+
+<img src="https://note.youdao.com/yws/public/resource/0e89c777a3d9902be4a0aa48ac731ddf/xmlnote/8AC6B2CF0F374EA5AEC1825C1A10F69A/764" alt="img" style="zoom:50%;" />
+
+<img src="https://note.youdao.com/yws/public/resource/0e89c777a3d9902be4a0aa48ac731ddf/xmlnote/0A294A7C27D8479D9FFCDFB974585AB3/766" alt="img" style="zoom:50%;" />
+
+<img src="https://note.youdao.com/yws/public/resource/0e89c777a3d9902be4a0aa48ac731ddf/xmlnote/44D35CB1B4EB46249025C92E594D6BEA/768" alt="img" style="zoom:50%;" />
+
+<img src="https://note.youdao.com/yws/public/resource/0e89c777a3d9902be4a0aa48ac731ddf/xmlnote/C6F141E9703D446992D72088657DA6C6/770" alt="img" style="zoom:50%;" />
+
+<img src="https://note.youdao.com/yws/public/resource/0e89c777a3d9902be4a0aa48ac731ddf/xmlnote/69A882AA04574E9B96A076A0C9A69B0D/772" alt="img" style="zoom:50%;" />
+
+### **5.Activity启动模式**
+
+<img src="https://note.youdao.com/yws/public/resource/0e89c777a3d9902be4a0aa48ac731ddf/xmlnote/A9D530D4328E4CAE9EEFFD53E09F832A/775" alt="img" style="zoom:50%;" />
+
+<img src="https://note.youdao.com/yws/public/resource/0e89c777a3d9902be4a0aa48ac731ddf/xmlnote/54250C0FE1ED4D8A8BDF441F73217163/777" alt="img" style="zoom:50%;" />
+
+<img src="https://note.youdao.com/yws/public/resource/0e89c777a3d9902be4a0aa48ac731ddf/xmlnote/AF2614476DC54B1AAF405284960C4E79/780" alt="img" style="zoom:50%;" />
+
+<img src="https://note.youdao.com/yws/public/resource/0e89c777a3d9902be4a0aa48ac731ddf/xmlnote/48640872BD4C4554B00D89B3C22E2180/783" alt="img" style="zoom:50%;" />
